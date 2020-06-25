@@ -1,0 +1,162 @@
+// Defaults
+body,
+p {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url('https://static.pexels.com/photos/301378/pexels-photo-301378.jpeg');
+  background-size: cover; // background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+// Main Simon Container
+.container {
+  margin: 60px auto;
+  display: flex;
+  justify-content: space-between;
+  width: 615px;
+  min-height: 615px;
+  flex-wrap: wrap;
+  position: relative;
+  background: rgb(44, 44, 44);
+  padding: 27px;
+  border-radius: 50%;
+  box-shadow: 10px 20px 25px #000000;
+  // Large Buttons
+  .green,
+  .red,
+  .yellow,
+  .blue {
+    width: 300px;
+    height: 300px;
+    opacity: 0.5;
+  }
+  .green {
+    border-top-left-radius: 300px;
+    background: rgb(0, 128, 0);
+  }
+  .red {
+    border-top-right-radius: 300px;
+    background: rgb(255, 0, 0);
+  }
+  .yellow,
+  .blue {
+    margin-top: 10px;
+  }
+  .yellow {
+    border-bottom-left-radius: 300px;
+    background: rgb(255, 255, 0);
+  }
+  .blue {
+    border-bottom-right-radius: 300px;
+    background: rgb(0, 0, 255);
+  }
+}
+
+// Centre Section Background
+.middlesection {
+  background: rgb(44, 44, 44);
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 182px;
+  top: 182px;
+  border-radius: 50%;
+}
+
+// Centre White Section
+.middle {
+  background: #fff;
+  margin: 15px auto;
+  border-radius: 50%;
+  height: 265px;
+  width: 265px;
+  text-align: center;
+  // Title
+  h1 {
+    font-family: 'Permanent Marker', cursive;
+    margin: 0;
+    padding: 30px 0 10px 10px;
+    font-size: 46px;
+    color: rgb(44, 44, 44);
+    letter-spacing: 3px;
+  }
+}
+
+// Controls
+.controlsection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 30px;
+  // Display Counter
+  .display {
+    background: rgb(44, 44, 44);
+    font-size: 30px;
+    color: #fff;
+    width: 50px;
+    height: 35px;
+    padding: 15px;
+    margin: 0 10px;
+    display: inline-block;
+    border-radius: 10px;
+  }
+  // Start and Strict Buttons
+  .buttonblock {
+    display: flex;
+    flex-direction: column;
+    .start,
+    .strict {
+      display: inline-block;
+      border-radius: 100%;
+      border: 4px solid rgb(44, 44, 44);
+      padding: 15px;
+      margin: 0 0 -8px 5px;
+    }
+    .start {
+      background: rgb(231, 15, 15);
+    }
+    .strict {
+      background: #959516;
+    }
+    .buttontext {
+      margin-top: 15px;
+    }
+  }
+}
+
+// On/Off Rocker Switch
+.switch {
+  margin-top: 20px;
+  font-size: 20px;
+  .powerbutton {
+    background: grey;
+    margin: 8px;
+    padding-right: 30px;
+    padding-left: 0px;
+  }
+  .button {
+    background: black;
+    padding: 0 10px;
+  }
+}
+
+
+// Brighten Light Buttons
+.brighten {
+  opacity: 1 !important;
+}
+
+// Change On/Off Swtich to On
+.switchon {
+  padding-left: 30px !important;
+  padding-right: 0px !important;
+}
+
+.stricton {
+  background: rgb(255,255,0) !important;
+}
+

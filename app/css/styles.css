@@ -1,0 +1,124 @@
+body,
+p {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url("https://static.pexels.com/photos/301378/pexels-photo-301378.jpeg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.container {
+  margin: 60px auto;
+  display: flex;
+  justify-content: space-between;
+  width: 615px;
+  min-height: 615px;
+  flex-wrap: wrap;
+  position: relative;
+  background: #2c2c2c;
+  padding: 27px;
+  border-radius: 50%;
+  box-shadow: 10px 20px 25px #000000; }
+  .container .green,
+  .container .red,
+  .container .yellow,
+  .container .blue {
+    width: 300px;
+    height: 300px;
+    opacity: 0.5; }
+  .container .green {
+    border-top-left-radius: 300px;
+    background: green; }
+  .container .red {
+    border-top-right-radius: 300px;
+    background: red; }
+  .container .yellow,
+  .container .blue {
+    margin-top: 10px; }
+  .container .yellow {
+    border-bottom-left-radius: 300px;
+    background: yellow; }
+  .container .blue {
+    border-bottom-right-radius: 300px;
+    background: blue; }
+
+.middlesection {
+  background: #2c2c2c;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 182px;
+  top: 182px;
+  border-radius: 50%; }
+
+.middle {
+  background: #fff;
+  margin: 15px auto;
+  border-radius: 50%;
+  height: 265px;
+  width: 265px;
+  text-align: center; }
+  .middle h1 {
+    font-family: 'Permanent Marker', cursive;
+    margin: 0;
+    padding: 30px 0 10px 10px;
+    font-size: 46px;
+    color: #2c2c2c;
+    letter-spacing: 3px; }
+
+.controlsection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 30px; }
+  .controlsection .display {
+    background: #2c2c2c;
+    font-size: 30px;
+    color: #fff;
+    width: 50px;
+    height: 35px;
+    padding: 15px;
+    margin: 0 10px;
+    display: inline-block;
+    border-radius: 10px; }
+  .controlsection .buttonblock {
+    display: flex;
+    flex-direction: column; }
+    .controlsection .buttonblock .start,
+    .controlsection .buttonblock .strict {
+      display: inline-block;
+      border-radius: 100%;
+      border: 4px solid #2c2c2c;
+      padding: 15px;
+      margin: 0 0 -8px 5px; }
+    .controlsection .buttonblock .start {
+      background: #e70f0f; }
+    .controlsection .buttonblock .strict {
+      background: #959516; }
+    .controlsection .buttonblock .buttontext {
+      margin-top: 15px; }
+
+.switch {
+  margin-top: 20px;
+  font-size: 20px; }
+  .switch .powerbutton {
+    background: grey;
+    margin: 8px;
+    padding-right: 30px;
+    padding-left: 0px; }
+  .switch .button {
+    background: black;
+    padding: 0 10px; }
+
+.brighten {
+  opacity: 1 !important; }
+
+.switchon {
+  padding-left: 30px !important;
+  padding-right: 0px !important; }
+
+.stricton {
+  background: yellow !important; }
